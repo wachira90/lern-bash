@@ -1,0 +1,2 @@
+# bash
+all bash command 
