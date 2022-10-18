@@ -1,2 +1,5 @@
 # bash
 all bash command 
+
+
+
