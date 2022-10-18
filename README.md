@@ -1,8 +1,13 @@
 # bash
 all bash command 
 
+## Test command
 
-## date time
+````
+touch TEST-BEMIS-$(date +%Y-%m-%d_%H-%M-%S).csv
+````
+
+## Date time
 
 ````
 echo $(date +%Y-%m-%d_%H-%M-%S)
@@ -10,13 +15,15 @@ echo $(date +%Y-%m-%d_%H-%M-%S)
 echo $(date +%Y-%m-%d_%H-%M-%S_%N)
 ````
 
-## date file
+## Date file
 
 ````
 #! /bin/bash
 today=`date +%Y-%m-%d`
 echo $today
 ````
+
+## Cheat Sheet
 
 |Format | Description|
 |----|----|
